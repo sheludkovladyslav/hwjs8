@@ -1,3 +1,5 @@
+"use strict";
+
 // const friends = ["Mango", "Poly", "Kiwi", "Ajax"];
 // let string = "";
 
@@ -24,6 +26,6 @@ console.log(cards);
 
 const cardToUpdate = "Card-4-new";
 const indexToUpdate = cards.indexOf("Card-4");
-
-cards[indexToUpdate] = "card-12";
+const newCard = "card-12";
+cards[indexToUpdate] = newCard;
 console.log(cards);
