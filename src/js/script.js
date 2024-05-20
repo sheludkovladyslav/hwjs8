@@ -24,8 +24,8 @@ const cardToInsert = "Card-6";
 cards.push(cardToInsert);
 console.log(cards);
 
-const cardToUpdate = "Card-4-new";
+const cardToUpdate = "Card-4";
 const indexToUpdate = cards.indexOf("Card-4");
 const newCard = "card-12";
-cards[indexToUpdate] = newCard;
+cards.splice(indexToUpdate, 1, newCard);
 console.log(cards);
